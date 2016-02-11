@@ -3,7 +3,7 @@ MAINTAINER Jun SAITO <jsaito@hjklyubn.jp>
 
 RUN apk update
 RUN apk add ngircd
-COPY ./ngircd.conf /etc/ngircd
+COPY ngircd.conf /etc/ngircd
 
 EXPOSE 6667
 
